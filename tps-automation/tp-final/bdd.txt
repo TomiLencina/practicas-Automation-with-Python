@@ -1,0 +1,14 @@
+FEATURE: login test
+SCENARI: Login successfully
+
+
+GIVEN:  I go and open the page ("https://demo.guru99.com/test/newtours/login.php")
+AND: I type username <name> into __username_field
+AND: I type password <password> into __password_field
+WHEN: I click Submit button
+THEN: I verify the page URL contains "https://demo.guru99.com/test/newtours/login_sucess.php"
+
+
+Example:
+|name|password|
+messi.goat@gmail.com|messismo
