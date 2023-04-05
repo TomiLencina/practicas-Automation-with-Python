@@ -9,8 +9,9 @@ Contenido en la carpeta Tps-python:
   
 Contenido en la carpeta Tps-Automation:
   Registro,Login succefully,Login Negative, exceptiocnes, validaciones, assert, modelado Page_Objects,selenium-webdriver, pytest, diferentes navegadores
+  Paginas utilizadas para las pruebas: "https://practicetestautomation.com/practice-test-login/" y "https://demo.guru99.com/test/newtours/login.php"
   
-  -PychardProject: primeras automatizacion en diferentes paginas de prueba... web de prueba "https://practicetestautomation.com/practice-test-login/"
-  -Tpfinal: automatizacion estructurada con page_object, utilizando pytest en Chrome y Firefox, sobre un registro y un login exitoso en la web: "https://demo.guru99.com/test/newtours/login.php"
+  -PychardProject: primeras automatizacion en diferentes paginas de prueba... web de prueba 
+  -Tpfinal: automatizacion estructurada con page_object, utilizando pytest en Chrome y Firefox, sobre un registro y un login exitoso en la web: 
   -Bupa: automatizaciones reales, llevadas a produccion... Lectura y extracion de datos desde excel, creacion de nuevos excels.
   
