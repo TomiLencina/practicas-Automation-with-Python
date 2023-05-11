@@ -21,7 +21,7 @@ class TestLoginPage:
         # rut1 = df.loc[0, 'Aseg_RutTitular_cr'] (primer rut de la columna)
 
         time.sleep(3)
-        login_page.execute_login("ibecerra@vates.com", "%Martes2022%")#logion de Outlook
+        login_page.execute_login("mail-ejemplo@mail.com", "contrasena")#logion de Outlook
         for nro_rut in df['Aseg_RutTitular_cr']:
             login_page.execute_redaction("tlencina@vates.com", "Baja para pruebas en QA " + nro_rut, "Favor ejecutar Baja para pruebas en QA " + nro_rut)#Cuenta Outlook a utilizar para enciar los mails
             time.sleep(5)
